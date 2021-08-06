@@ -1,5 +1,8 @@
 #include<stdio.h>
 int main()
   {
-    printf("hai!");
+    int a=1,b=1,c;
+    c = a+b;
+    printf("value of c = %d\n",c);
+    
   }
