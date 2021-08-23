@@ -1,8 +1,14 @@
 #include<stdio.h>
 int main()
   {
-    int a=1,b=1,c;
-    c = a+b;
-    printf("value of c = %d\n",c);
+  int a,b,c;
+  printf("Enter first number\n");
+  scanf("%d",&a);
+  printf("Enter first number\n");
+  scanf("%d",&a);  
+  
+  c = a+b;
+  printf("Your answer is  = %d\n",c);
+  return 0;
     
   }
